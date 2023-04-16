@@ -1,0 +1,1127 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Mebeland \u2013 Furniture Store WooCommerce Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Shop",
+            "screenshot": "screenshots\/shop.jpg",
+            "source": "templates\/shop.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=product-archive",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive\/shop_page",
+                    "include\/product_archive\/product_cat"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: Shop Page &amp; Product categories."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search Result",
+            "screenshot": "screenshots\/search-result.jpg",
+            "source": "templates\/search-result.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=search-result",
+            "type": "search-results",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "search-results",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Search Results\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Offcanvas",
+            "screenshot": "screenshots\/offcanvas.jpg",
+            "source": "templates\/offcanvas.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=offcanvas",
+            "type": "popup",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general",
+                    "exclude\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Popup",
+            "screenshot": "screenshots\/popup.jpg",
+            "source": "templates\/popup.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=popup",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/singular\/front_page"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Front Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/?elementor_library=404-page",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "7.1.1",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.9.0",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "plant-on-pouf-next-to-green-armchair-in-grey-flat-interior-with-e1673416566715.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/plant-on-pouf-next-to-green-armchair-in-grey-flat-interior-with-e1673416566715-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 174757,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-293PL7A"
+        },
+        {
+            "filename": "green-armchair-between-black-lamp-and-plants-in-grey-flat-interi-e1673416617379.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/green-armchair-between-black-lamp-and-plants-in-grey-flat-interi-e1673416617379-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 221322,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-LRUVY39"
+        },
+        {
+            "filename": "armchair-isolated-on-white-background-3d-rendering-PHP4PA7.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/armchair-isolated-on-white-background-3d-rendering-PHP4PA7-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 182105,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PHP4PA7"
+        },
+        {
+            "filename": "signature-M6UF5EY-e1673416626152.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/signature-M6UF5EY-800x199.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 21101,
+            "dimensions": [
+                800,
+                199
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-M6UF5EY"
+        },
+        {
+            "filename": "3d-living-room-and-furniture-with-blank-photo-frame-e1673416654171.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/3d-living-room-and-furniture-with-blank-photo-frame-e1673416654171-800x1066.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 101563,
+            "dimensions": [
+                1000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-TBJQQRW"
+        },
+        {
+            "filename": "vertical-view-of-scandinavian-dining-room-with-white-wooden-furniture-e1673416682361.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/vertical-view-of-scandinavian-dining-room-with-white-wooden-furniture-e1673416682361-800x1266.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 166512,
+            "dimensions": [
+                1000,
+                1582
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-E8YHMT5"
+        },
+        {
+            "filename": "wooden-furniture-and-wicker-accents-in-fashionable-blue-green-and-white-interior-e1673416720455.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/wooden-furniture-and-wicker-accents-in-fashionable-blue-green-and-white-interior-e1673416720455-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 175943,
+            "dimensions": [
+                1000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-JBTNLRM"
+        },
+        {
+            "filename": "triangle-wooden-table-on-white-background-close-up-PKFQZSQ.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/triangle-wooden-table-on-white-background-close-up-PKFQZSQ-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                }
+            ],
+            "filesize": 148460,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKFQZSQ"
+        },
+        {
+            "filename": "table-lamp-isolated-UP22V4Z.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/table-lamp-isolated-UP22V4Z-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                }
+            ],
+            "filesize": 90432,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-UP22V4Z"
+        },
+        {
+            "filename": "wooden-nightstand-PDYHJ7F.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/wooden-nightstand-PDYHJ7F-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                }
+            ],
+            "filesize": 261028,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PDYHJ7F"
+        },
+        {
+            "filename": "modern-interior-room-with-furniture--e1673416735327.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/modern-interior-room-with-furniture--e1673416735327-800x474.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 229840,
+            "dimensions": [
+                1920,
+                1137
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-MS5B768"
+        },
+        {
+            "filename": "2CUG9YD.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/2CUG9YD-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 123342,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-2CUG9YD"
+        },
+        {
+            "filename": "6AT2QYH.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/6AT2QYH-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 93491,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6AT2QYH"
+        },
+        {
+            "filename": "P2UGM57.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/P2UGM57-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 144343,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P2UGM57"
+        },
+        {
+            "filename": "RHDZL5A.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/RHDZL5A-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 117488,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RHDZL5A"
+        },
+        {
+            "filename": "trendy-open-space-living-and-dining-room-interior-with-grey-couch-and-wooden-furniture-e1673417076864.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/trendy-open-space-living-and-dining-room-interior-with-grey-couch-and-wooden-furniture-e1673417076864-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 99331,
+            "dimensions": [
+                1000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-X87CUNQ"
+        },
+        {
+            "filename": "white-furniture-with-wooden-elements-e1673417085149.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/white-furniture-with-wooden-elements-e1673417085149-800x308.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 78383,
+            "dimensions": [
+                1440,
+                554
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-6GXFLN7"
+        },
+        {
+            "filename": "image-U3S4CX.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/image-U3S4CX.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6300,
+            "dimensions": [
+                421,
+                173
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-U3S4CX"
+        },
+        {
+            "filename": "image3-U3S4CX.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/image3-U3S4CX.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 5999,
+            "dimensions": [
+                382,
+                110
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-U3S4CX"
+        },
+        {
+            "filename": "image2-U3S4CX.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/image2-U3S4CX.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6730,
+            "dimensions": [
+                405,
+                137
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-U3S4CX"
+        },
+        {
+            "filename": "image4-U3S4CX.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/image4-U3S4CX.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6450,
+            "dimensions": [
+                401,
+                177
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-U3S4CX"
+        },
+        {
+            "filename": "image6-U3S4CX.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/image6-U3S4CX.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 8935,
+            "dimensions": [
+                414,
+                140
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-U3S4CX"
+        },
+        {
+            "filename": "dining-room-interior-e1673417206872.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/dining-room-interior-e1673417206872-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 166457,
+            "dimensions": [
+                1000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-997FRGT"
+        },
+        {
+            "filename": "living-room-decorated-with-chairs-picture-frames-and-small-plant-pots-e1673417215747.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/living-room-decorated-with-chairs-picture-frames-and-small-plant-pots-e1673417215747-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 126810,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3DBRP64"
+        },
+        {
+            "filename": "carpenter-in-woodworking-shop-28HRJ3S.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/carpenter-in-woodworking-shop-28HRJ3S-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 330336,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-28HRJ3S"
+        },
+        {
+            "filename": "carpenter-is-posing-SQ95HNT.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/carpenter-is-posing-SQ95HNT-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 286723,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SQ95HNT"
+        },
+        {
+            "filename": "smiling-carpenter-X9MJH3A.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/smiling-carpenter-X9MJH3A-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 202275,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-X9MJH3A"
+        },
+        {
+            "filename": "armchair-isolated-on-white-background-3d-rendering-P9MJ7CJ.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/armchair-isolated-on-white-background-3d-rendering-P9MJ7CJ-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                }
+            ],
+            "filesize": 215121,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P9MJ7CJ"
+        },
+        {
+            "filename": "lamp-PP9DJWE.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/lamp-PP9DJWE-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                }
+            ],
+            "filesize": 97220,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PP9DJWE"
+        },
+        {
+            "filename": "wooden-nightstand-KAPKELE.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/wooden-nightstand-KAPKELE-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                }
+            ],
+            "filesize": 282655,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-KAPKELE"
+        },
+        {
+            "filename": "modern-living-room--e1673417017982.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/modern-living-room--e1673417017982-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 262218,
+            "dimensions": [
+                1920,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-BRQ9PMD"
+        },
+        {
+            "filename": "designer-wooden-furniture-e1673417312934.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/designer-wooden-furniture-e1673417312934-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 88423,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PV69DUV"
+        },
+        {
+            "filename": "wooden-furniture-in-modern-style-e1673417336788.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/wooden-furniture-in-modern-style-e1673417336788-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 99933,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PQTU675"
+        },
+        {
+            "filename": "logo-QMWP9G-e1673416664268.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/logo-QMWP9G-800x148.png",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 15442,
+            "dimensions": [
+                800,
+                148
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-QMWP9G"
+        },
+        {
+            "filename": "interior-of-modern-living-room-with-sofa-and-furniture-3d-rendering-e1673416817259.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/interior-of-modern-living-room-with-sofa-and-furniture-3d-rendering-e1673416817259-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 63626,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZWSKDXG"
+        },
+        {
+            "filename": "interior-of-modern-living-room-with-sofa-and-furniture-3d-rendering-1-e1673416832165.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/interior-of-modern-living-room-with-sofa-and-furniture-3d-rendering-1-e1673416832165-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 101484,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-8UMGDPA"
+        },
+        {
+            "filename": "bedroom-with-minimalist-furnitures-e1673416824441.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/bedroom-with-minimalist-furnitures-e1673416824441-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 116979,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PYNZ9WW"
+        },
+        {
+            "filename": "christmas-interior-e1673416858337.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/christmas-interior-e1673416858337-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 154353,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-E7BW7DA"
+        },
+        {
+            "filename": "white-minimalist-furniture-in-flat-e1673416840248.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/white-minimalist-furniture-in-flat-e1673416840248-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 98463,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PS4B3F9"
+        },
+        {
+            "filename": "interior-of-modern-living-room-with-sofa-and-furniture-3d-rendering-2-e1673416848377.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/interior-of-modern-living-room-with-sofa-and-furniture-3d-rendering-2-e1673416848377-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/offcanvas.json",
+                    "name": "Offcanvas"
+                }
+            ],
+            "filesize": 93260,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2Y7HSKF"
+        },
+        {
+            "filename": "ornamental-glass-jar-and-table--e1673416944437.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/ornamental-glass-jar-and-table--e1673416944437-800x565.jpg",
+            "templates": [
+                {
+                    "source": "templates\/popup.json",
+                    "name": "Popup"
+                }
+            ],
+            "filesize": 94224,
+            "dimensions": [
+                1920,
+                1357
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-KG8KDRL"
+        },
+        {
+            "filename": "logo2-QMWP9G-e1673416923832.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/logo2-QMWP9G-800x569.png",
+            "templates": [
+                {
+                    "source": "templates\/popup.json",
+                    "name": "Popup"
+                }
+            ],
+            "filesize": 22378,
+            "dimensions": [
+                500,
+                356
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-QMWP9G"
+        },
+        {
+            "filename": "armchair-FTMDCEX.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/mebeland\/wp-content\/uploads\/sites\/161\/2021\/09\/armchair-FTMDCEX.png",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 263483,
+            "dimensions": [
+                500,
+                619
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-FTMDCEX"
+        }
+    ]
+}
